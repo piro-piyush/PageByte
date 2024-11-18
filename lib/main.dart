@@ -13,6 +13,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-        title: 'PageByte', theme: lightTheme, home: const WelcomeScreen());
+        debugShowCheckedModeBanner: false,
+        title: 'PageByte',
+        theme: lightTheme,
+        home: const WelcomeScreen());
   }
 }
