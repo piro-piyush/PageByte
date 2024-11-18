@@ -34,3 +34,8 @@ flutter:
           weight: 500
         - asset: assets/fonts/Poppins-Semibold.ttf
           weight: 600
+
+  # Asset configuration
+  assets:
+    - assets/icons
+    - assets/images
